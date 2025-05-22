@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>סדנאות וקורסים לארגונים</title>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Heebo', Arial, sans-serif;
+      background: #f7fafc;
+      color: #253247;
+      margin: 0;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 950px;
+      margin: 48px auto 0 auto;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 2px 12px #e7eaf333;
+      padding: 38px 20px 26px 20px;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    .logo img {
+      max-width: 160px;
+      height: auto;
+      filter: grayscale(30%);
+      opacity: 0.94;
+      transition: filter .2s;
+    }
+    .logo img:hover {
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.1rem;
+      margin-bottom: 18px;
+      color: #1c395e;
+      font-weight: 700;
+      letter-spacing: -1.5px;
+      background: none;
+      -webkit-text-fill-color: initial;
+    }
+    .lead {
+      text-align: center;
+      color: #5870a6;
+      font-size: 1.08rem;
+      margin-bottom: 32px;
+      margin-top: 0;
+    }
+    .contact-btn {
+      position: fixed;
+      left: 22px;
+      bottom: 22px;
+      z-index: 99;
+      background: #e5eefc;
+      color: #254c7a;
+      border: none;
+      border-radius: 28px;
+      padding: 10px 36px;
+      font-size: 1rem;
+      font-weight: 700;
+      box-shadow: 0 2px 10px #e7eaf355;
+      cursor: pointer;
+      transition: background .18s, color .18s;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+    }
+    .contact-btn:hover {
+      background: #d3e3fa;
+      color: #122848;
+    }
+    .category {
+      border-radius: 10px;
+      margin-bottom: 30px;
+      padding: 22px 22px 15px 10px;
+      background: #f8fafc;
+      border-right: 5px solid #e0e6ee;
+      transition: border .18s, background .18s;
+    }
+    .category:hover {
+      border-right: 5px solid #b7c7df;
+      background: #f4f6fa;
+    }
+    h2 {
+      color: #253247;
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      opacity: 0.93;
+    }
+    h2 .icon {
+      font-size: 1.15em;
+      opacity: 0.7;
+      margin-left: 7px;
+      margin-bottom: 2px;
+    }
+    .workshop {
+      margin-bottom: 8px;
+      display: flex;
+      align-items: flex-start;
+      gap: 7px;
+      background: none;
+      border-radius: 7px;
+      padding: 7px 7px 4px 3px;
+      box-shadow: none;
+      border-right: 3px solid #e5eaf5;
+    }
+    .workshop-title {
+      font-weight: 600;
+      color: #305089;
+      min-width: 114px;
+      font-size: 1em;
+    }
+    .description {
+      flex: 1;
+      color: #394a64;
+      font-size: 0.98em;
+      opacity: 0.97;
+    }
+    @media (max-width: 700px) {
+      .container {
+        padding: 10px 2vw 18px 2vw;
+      }
+      h1 { font-size: 1.18rem; }
+      h2 { font-size: 1em; }
+      .category { padding: 10px 4vw 7px 3vw; border-radius: 8px;}
+      .contact-btn {
+        left: 7px;
+        bottom: 9px;
+        font-size: 0.98rem;
+        padding: 9px 22px;
+      }
+      .logo img { max-width: 92px; }
+    }
+  </style>
+</head>
+<body>
+  <a href="mailto:shahar.cohen@improve-it.co.il" class="contact-btn" title="צרו קשר עם Improve-IT">לתיאום ייעוץ</a>
+  <div class="container">
+    <div class="logo">
+      <a href="http://www.improve-it.co.il/" target="_blank">
+        <img src="logo-improve-it.png" alt="לוגו Improve-IT">
+      </a>
+    </div>
+    <h1>סדנאות וקורסים לארגונים</h1>
+    <p class="lead">מגוון סדנאות עדכניות לפיתוח מנהלים, צוותים ויכולות ארגוניות – באווירה מקצועית ונעימה.</p>
+
+    <div class="category">
+      <h2><span class="icon">💡</span> אסטרטגיה</h2>
+      <div class="workshop">
+        <div class="workshop-title">ניהול השינוי הלכה למעשה</div>
+        <div class="description">פיתוח חוסן ארגוני, כלים להתמודדות עם אי ודאות, סימולציות לשינוי.</div>
+      </div>
+      <div class="workshop">
+        <div class="workshop-title">מחזון למציאות</div>
+        <div class="description">בניית חזון אישי וארגוני, תרגום מטרות לתכנית עבודה מעשית.</div>
+      </div>
+      <div class="workshop">
+        <div class="workshop-title">מותג מנצח הלכה למעשה</div>
+        <div class="description">מיתוג, חוויית לקוח, יצירת סיפור ארגוני וניתוח SWOT.</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2><span class="icon">🚀</span> פיתוח מנהלים</h2>
+      <div class="workshop"><span class="workshop-title">מעובד למנהל:</span> הכשרה מעשית למנהלים חדשים כולל פרויקט וחניכה.</div>
+      <div class="workshop"><span class="workshop-title">עתודות מנהלים:</span> תכנית זיהוי ופיתוח מועמדים לניהול.</div>
+      <div class="workshop"><span class="workshop-title">ניהול בדרג הביניים:</span> כלים מתקדמים להובלת צוותים, מנטורינג וניהול בינתחומי.</div>
+      <div class="workshop"><span class="workshop-title">ניהול בכיר:</span> קבלת החלטות, הובלה אסטרטגית ועבודה מול בעלי עניין.</div>
+      <div class="workshop"><span class="workshop-title">סדנאות העשרה:</span> נושאים כמו ניהול צוות, מוטיבציה, ניהול זמן ותקשורת אפקטיבית.</div>
+    </div>
+
+    <div class="category">
+      <h2><span class="icon">🤝</span> גיבוש וניהול צוותים</h2>
+      <div class="workshop">
+        <div class="workshop-title">צוות מנצח</div>
+        <div class="description">הנעת צוותים, תקשורת פנימית, תרגולי גיבוש ובניית אמון.</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2><span class="icon">💬</span> שירות ומכירות</h2>
+      <div class="workshop"><span class="workshop-title">שירות איכותי:</span> עקרונות שירות חווייתי, זיהוי לקוחות מאתגרים, מניעת שחיקה.</div>
+      <div class="workshop"><span class="workshop-title">יסודות המכירה:</span> מכירה רגשית, סטוריטלינג, זיהוי צרכים.</div>
+    </div>
+
+    <div class="category">
+      <h2><span class="icon">👥</span> ניהול משאבי אנוש</h2>
+      <div class="workshop">
+        <div class="workshop-title">מיומנויות לניהול משאבי אנוש</div>
+        <div class="description">ראיונות, משוב, הנעת עובדים בין-דורית, שותפות אסטרטגית.</div>
+      </div>
+    </div>
+
+    <div class="category">
+      <h2><span class="icon">⏳</span> ניהול זמן ואיזון חיים</h2>
+      <div class="workshop"><span class="workshop-title">ניהול זמן:</span> כלים טכנולוגיים, תכנון משימות, התמודדות עם גזלני זמן.</div>
+      <div class="workshop"><span class="workshop-title">Work-Life Balance:</span> שחיקה, ערכים אישיים, חלוקת אנרגיה, תקשורת לשינוי.</div>
+    </div>
+
+    <div class="category">
+      <h2><span class="icon">🎯</span> מיומנויות הדרכה ולמידה ארגונית</h2>
+      <div class="workshop"> <span class="workshop-title">קורס הנחייה:</span> פיתוח יחידות לימוד, עמידה מול קהל.</div>
+      <div class="workshop"> <span class="workshop-title">סדנת תכנון שנתי:</span> בחירת תכנים ומעקב אפקטיביות.</div>
+      <div class="workshop"> <span class="workshop-title">עקרונות פיתוח הדרכה:</span> בחירת ספקים, שילוב טכנולוגיות.</div>
+      <div class="workshop"> <span class="workshop-title">סדנאות ייעודיות:</span> אינטליגנציה רגשית, איזון קריירה, פערים בין דוריים, מנהיגות, תחקיר, שיווק פנים-ארגוני ועוד.</div>
+    </div>
+  </div>
+</body>
+</html>
